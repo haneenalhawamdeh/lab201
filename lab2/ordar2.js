@@ -31,6 +31,8 @@ var qu = [
 
 
 ];
+function question(){
+
 for (var i = 0;i< qu.length;i++) {
     var currentq = qu[i];
 // here we have array for 3 items which is prompt ,+ response,-response
@@ -58,6 +60,10 @@ switch (userresponse) {
             alert ('wrong answer');}
             
 }
+}
+question();
+
+
 
 let h = 5;
 let a = 0;
