@@ -31,6 +31,7 @@ var qu = [
 
 
 ];
+function ques(){
 for (var i = 0;i< qu.length;i++) {
     var currentq = qu[i];
 // here we have array for 3 items which is prompt ,+ response,-response
@@ -58,50 +59,51 @@ switch (userresponse) {
             alert ('wrong answer');}
             
 }
+} 
 
-let h = 5;
-let a = 0;
-while (a <4) {
-    var num = Number(prompt("guess a number"));
-    if (num == h) {
-        alert("ohh that is correct");
-        counter= counter+1;
-        console.log(num)
-        alert('you got'+counter+'point')
-        break;}
-    else if (1 < num && num <9 ) {
-        alert("too low");
-        console.log(num)
-    } else if (9< num || num<1) {
-        alert("too high");
-        console.log(num);
-    }
-    a = a + 1;
-    if (a==4)
-{ alert(" i wish you could hit the right answer, which is was 5");}
-}
+// let h = 5;
+// let a = 0;
+// while (a <4) {
+//     var num = Number(prompt("guess a number"));
+//     if (num == h) {
+//         alert("ohh that is correct");
+//         counter= counter+1;
+//         console.log(num)
+//         alert('you got'+counter+'point')
+//         break;}
+//     else if (1 < num && num <9 ) {
+//         alert("too low");
+//         console.log(num)
+//     } else if (9< num || num<1) {
+//         alert("too high");
+//         console.log(num);
+//     }
+//     a = a + 1;
+//     if (a==4)
+// { alert(" i wish you could hit the right answer, which is was 5");}
+// }
 
-var b=0;
-while (b <7) {
-    var animal = prompt("guess what is the kind of animal i love? ");
-    animal=animal.toLowerCase()
-    if (animal == 'cat'|| animal== 'dog' ||animal=='bird' ) {
-        alert("ohh that is correct");
-        counter = counter+1;
-        console.log(animal);
-        break;
-    }
-    else  {
-        alert("that is wrong");
+// var b=0;
+// while (b <7) {
+//     var animal = prompt("guess what is the kind of animal i love? ");
+//     animal=animal.toLowerCase()
+//     if (animal == 'cat'|| animal== 'dog' ||animal=='bird' ) {
+//         alert("ohh that is correct");
+//         counter = counter+1;
+//         console.log(animal);
+//         break;
+//     }
+//     else  {
+//         alert("that is wrong");
 
-    }
-    b = b+ 1;
-    if (b==7)
-{ alert(" i wish you know this info about me , i love cat ,dog and bird ");
+//     }
+//     b = b+ 1;
+//     if (b==7)
+// { alert(" i wish you know this info about me , i love cat ,dog and bird ");
 
-}
-}
+// }
+// }
 
-alert('your total point is '+ counter );
+// alert('your total point is '+ counter );
 
 
