@@ -97,7 +97,7 @@ while (b <7) {
         console.log(animal);
         break;
     }
-    else  {
+    else  { 
         alert("that is wrong");
 
     }
