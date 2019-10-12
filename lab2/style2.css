@@ -1,4 +1,36 @@
 
 body{
-background-color: red;
+background-image: url("https://scontent.famm4-1.fna.fbcdn.net/v/t1.0-9/51019918_2121721401204117_5030651934894194688_n.jpg?_nc_cat=110&_nc_oc=AQlocXr-OL0-HUiR_p5mUdjTlkNEF-f37GOR4-jOF4cGLbVWEyRU6cx03YAqxEwBjeg&_nc_ht=scontent.famm4-1.fna&oh=8d02dc2ae5143ff9079671b53a49079c&oe=5E258472");
+background-repeat: no-repeat;
+background-size: cover;
+
 }
+h1{ font-family:monospace;
+    font-style: italic ;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    padding: 25px 50px;
+    
+
+}
+p{
+    font-family:serif;
+    font-size: 30px;
+    color: rgb(226, 220, 214);
+    
+}
+ol{
+font-style: italic;
+padding: 5px;
+margin-left: 35px;
+color: navajowhite;
+font-size: 20px;
+}
+ul{
+    font-style: italic;
+    padding: 5px;
+    margin-left: 35px;
+    color: navajowhite;
+    font-size: 20px;
+    }
